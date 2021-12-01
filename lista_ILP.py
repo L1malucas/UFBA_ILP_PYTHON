@@ -1,6 +1,6 @@
  #                                               listas ilp
-#    lista 1
-#A força de aceleração
+#    lista 1 //////////////////////////////////////////////////////////////////////////////
+#A força de aceleração 
 e, t = input().split()
 v = int (e) / int (t)
 print(str(int(v)))
@@ -42,7 +42,7 @@ n = int(n)
 H = int(n/3600); M = int((n%3600)/60); S = int((n%3600)%60)
 print (str(H)+'h',str(M)+'m',str(S)+'s')
 
-#   lista 2
+#   lista 2 //////////////////////////////////////////////////////////////////////////////
 #A drone da amazonia
 Xe, Ye = input().split()
 Xd, Yd = input().split()
@@ -133,7 +133,7 @@ elif soma <=59 and soma >= 40:
 else:
     print("B-")
 
-#   lista 3
+#   lista 3 //////////////////////////////////////////////////////////////////////////////
 #A ocarina of Time
 X,Y,Z = input().split()
 N = int(input())
@@ -198,7 +198,7 @@ for i in range(n):
         count = aux
 print(count)
 
-#   lista 4
+#   lista 4 //////////////////////////////////////////////////////////////////////////////
 #A mochileiro metodico
 n= int(input())
 p=list()
@@ -323,7 +323,7 @@ if st == strAux:
 else:
     print("!Palindromo")
 
-#       lista 5
+#       lista 5 //////////////////////////////////////////////////////////////////////////////
 #A busca de leonidas
 p=int(input())
 L = C = int(10); aux=int(0)
@@ -386,7 +386,7 @@ else:
 print("Harry",somaHarry)
 print("Ron", somaRon)
 
-#       lista 6
+#       lista 6 //////////////////////////////////////////////////////////////////////////////
 #A seleção de quadribol
 #seleção de quadribol
 n = int(input())
