@@ -480,3 +480,682 @@ if ordem == 'C':              #verifica ordem de organização decrescente
 for saida in range (len(nivel)):#print do resultado
   print(nomes[saida], nivel[saida])
 
+
+
+=====================================================================================================================================================
+// ENERGIA ACELERACAO
+// #include <iostream>
+
+// using namespace std;
+
+// int main()
+// {
+// 	long int massa, velocidade, energia;
+// //   massa entre 40 e 100 ; velocidade entre 0 e 300.000.000
+// 	cin >> massa;
+// 	cin >> velocidade;
+// 	energia = massa * (velocidade *velocidade);
+// 	cout << energia;
+// 	return 0;
+// }
+// CONTINHA
+// #include <iostream>
+// #include <iomanip> // para configurar a precisão decimal
+
+// int main() {
+//     int A, B, C, D, E, F;
+    
+//     // Lendo os valores de entrada
+//     std::cin >> A >> B >> C >> D >> E >> F;
+    
+//     // Calculando o resultado da expressão
+//     double resultado = ((A + B) * (C - D) * (E + F)) / 2.0;
+    
+//     // Saída formatada com uma casa decimal
+//     std::cout << "Eu sou FERA nas continhas e o resultado é " << std::fixed << std::setprecision(1) << resultado << std::endl;
+    
+//     return 0;
+// }
+// MEDIA PONDERADA
+// #include <iostream>
+// #include <iomanip>
+
+// using namespace std;
+
+// int main() {
+//     double prova1, prova2, trabalho;
+//     cin >> prova1 >> prova2 >> trabalho;
+//     double mediaPonderada = ((prova1 * 4) + (prova2 * 4) + (trabalho * 2)) / 10.0;
+//     cout << fixed << setprecision(2) << mediaPonderada << endl;
+//     return 0;
+// }
+//  PENTATLO
+// #include <iostream>
+// #include <iomanip>
+
+// using namespace std;
+
+// int main() {
+//     int lima_inscricao, lima_n1, lima_n2, lima_n3, lima_n4, lima_n5;
+//     cin >> lima_inscricao >> lima_n1 >> lima_n2 >> lima_n3 >> lima_n4 >> lima_n5;
+//     double lima_media = (lima_n1 + lima_n2 + lima_n3 + lima_n4 + lima_n5) / 5.0;
+//     cout << lima_inscricao << " " << fixed << setprecision(1) << lima_media << endl;
+//     return 0;
+// }
+//AJUDE SKYWALKER
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int lima_a, lima_b, lima_c, lima_d, lima_e;
+//     cin >> lima_a >> lima_b >> lima_c >> lima_d >> lima_e;
+//     int lima_inimigas = lima_a - (lima_b + lima_c + lima_d + lima_e);
+//     cout << lima_inimigas << endl;
+//     return 0;
+// }
+
+// AS NOVAS MISSÕES JEDI
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_xp, lima_xpi_yoda, lima_xpi_luke, lima_xpi_ahsoka;
+//     cin >> lima_n >> lima_xp;
+//     cin >> lima_xpi_yoda >> lima_xpi_luke >> lima_xpi_ahsoka;
+//     int lima_xp_total = lima_n * lima_xp;
+//     cout << "Yoda " << lima_xpi_yoda + lima_xp_total << endl;
+//     cout << "Luke " << lima_xpi_luke + lima_xp_total << endl;
+//     cout << "Ahsoka " << lima_xpi_ahsoka + lima_xp_total << endl;
+//     return 0;
+// }
+
+// Incursão da Divisão de Reconhecimento
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     int lima_titans_levi = 20;
+//     int lima_titans_soldier = 5;
+//     int lima_total_kills = lima_titans_levi + (lima_n / lima_titans_soldier);
+//     int lima_required_soldiers = (lima_n - lima_titans_levi) / lima_titans_soldier;
+//     cout << max(0, lima_required_soldiers) << endl;
+//     return 0;
+// }
+
+// Entregas do Lobo Mau
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_t, lima_d, lima_v, lima_p;
+//     cin >> lima_t >> lima_d;
+//     cin >> lima_v >> lima_p;
+//     int lima_total_distance_cost = lima_t * lima_v;
+//     int lima_total_toll_count = (lima_t / lima_d);
+//     int lima_total_toll_cost = lima_total_toll_count * lima_p;
+//     int lima_total_cost = lima_total_distance_cost + lima_total_toll_cost;
+//     cout << lima_total_cost << endl;
+//     return 0;
+// }
+
+// Contador de segundos
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     int lima_hours = lima_n / 3600;
+//     int lima_minutes = (lima_n % 3600) / 60;
+//     int lima_seconds = lima_n % 60;
+//     cout << lima_hours << "h " << lima_minutes << "m " << lima_seconds << "s" << endl;
+//     return 0;
+// }
+// Drone da Amazônia
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_x1, lima_y1, lima_x2, lima_y2;
+//     cin >> lima_x1 >> lima_y1;
+//     cin >> lima_x2 >> lima_y2;
+//     if (lima_x1 == lima_x2 && lima_y1 == lima_y2) {
+//         cout << "Soltar pacote" << endl;
+//     } else {
+//         cout << "Nao soltar pacote" << endl;
+//     }
+//     return 0;
+// }
+
+// Altura
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_a, lima_b, lima_c;
+//     cin >> lima_a >> lima_b >> lima_c;
+//     int lima_maior_altura = max(lima_a, max(lima_b, lima_c));
+//     cout << lima_maior_altura << endl;
+//     return 0;
+// }
+// Cai pro x1
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_l, lima_p;
+//     int lima_total_lucas = 0, lima_total_pedro = 0;
+//     for (int i = 0; i < 3; i++) {
+//         cin >> lima_l >> lima_p;
+//         lima_total_lucas += lima_l;
+//         lima_total_pedro += lima_p;
+//     }
+//     if (lima_total_lucas > lima_total_pedro) {
+//         cout << "Lucas" << endl;
+//     } else if (lima_total_pedro > lima_total_lucas) {
+//         cout << "Pedro" << endl;
+//     } else {
+//         cout << "Empate" << endl;
+//     }
+//     return 0;
+// }
+
+// Exame Chunin
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     char lima_p1, lima_p2;
+//     cin >> lima_p1 >> lima_p2;
+//     if ((lima_p1 == 'N' || lima_p2 == 'N') || (lima_p1 == lima_p2)) {
+//         cout << "eliminado" << endl;
+//     } else {
+//         cout << "classificado" << endl;
+//     }
+//     return 0;
+// }
+
+// Super Mario Bros
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_sc, lima_mm, lima_ck;
+//     cin >> lima_sc >> lima_mm >> lima_ck;
+//     int lima_faltando_sc = 30 - lima_sc;
+//     int lima_faltando_mm = 6 - lima_mm;
+//     int lima_faltando_ck = 3 - lima_ck;
+//     if (lima_faltando_sc <= 0) {
+//         cout << "PROXIMO MUNDO" << endl;
+//     } else {
+//         cout << lima_faltando_sc << " " << lima_faltando_mm << " " << lima_faltando_ck << endl;
+//     }
+//     return 0;
+// }
+
+// Forjando Espadas
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_a, lima_m, lima_c;
+//     cin >> lima_a >> lima_m >> lima_c;
+//     int lima_espadas_a = lima_a / 2;
+//     int lima_espadas_m = lima_m / 3;
+//     int lima_espadas_c = lima_c / 5;
+//     int lima_max_espadas = min(lima_espadas_a, min(lima_espadas_m, lima_espadas_c));
+//     cout << lima_max_espadas << endl;
+//     return 0;
+// }
+
+// Fazendo um gol
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     char z, g, d, c;
+//     cin >> z >> g;
+//     cin >> d >> c;
+
+//     if (d == z) {
+//         cout << "Driblado" << endl;
+//         if (c == g) {
+//             cout << "Gol" << endl;
+//         } else {
+//             cout << "...e o goleiro pega" << endl;
+//         }
+//     } else {
+//         cout << "Bloqueado" << endl;
+//     }
+//     return 0;
+// }
+
+
+// INTERVALOS
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x, y, w, z, n;
+//     cin >> x >> y;
+//     cin >> w >> z;
+//     cin >> n;
+//     bool inFirst = (n > x && n <= y);
+//     bool inSecond = (n >= w && n < z);
+//     if (inFirst && inSecond) {
+//         cout << "Ambos!" << endl;
+//     } else if (inFirst) {
+//         cout << "Primeiro intervalo!" << endl;
+//     } else if (inSecond) {
+//         cout << "Segundo intervalo!" << endl;
+//     } else {
+//         cout << "Nenhum!" << endl;
+//     }
+//     return 0;
+// }
+
+// Fortalecimento de clima
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_p, lima_m;
+//     cin >> lima_n;
+//     for (int i = 0; i < lima_n; i++) {
+//         cin >> lima_p >> lima_m;
+//         cout << lima_p + lima_m << endl;
+//     }
+//     return 0;
+// }
+
+// Escolha do Campeão
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_poder, lima_max_poder = 0;
+//     cin >> lima_n;
+//     for (int lima_i = 0; lima_i < lima_n; lima_i++) {
+//         cin >> lima_poder;
+//         if (lima_poder > lima_max_poder) {
+//             lima_max_poder = lima_poder;
+//         }
+//     }
+//     cout << lima_max_poder << endl;
+//     return 0;
+// }
+
+// Ajude o pequeno Kurumin
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_a, lima_b, lima_c, lima_d, lima_s = 0;
+//     cin >> lima_n;
+//     for (int lima_i = 0; lima_i < lima_n; lima_i++) {
+//         cin >> lima_a >> lima_b >> lima_c >> lima_d;
+//         int lima_resultado = lima_a + lima_b + lima_c + lima_d;
+//         if (lima_resultado >= 100) {
+//             lima_resultado = lima_a - lima_b - lima_c - lima_d;
+//         }
+//         lima_s += lima_resultado;
+//     }
+//     cout << lima_s << " anos de vida" << endl;
+//     return 0;
+// }
+
+
+// Clones das sombras
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     if (lima_n > 0 && (lima_n & (lima_n - 1)) == 0) {
+//         cout << "Dattebayo" << endl;
+//     } else {
+//         cout << "Tururuuu" << endl;
+//     }
+//     return 0;
+// }
+
+// Pirâmide de limonadas
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     for (int lima_j = 1; lima_j <= lima_n; ++lima_j) {
+//         for (int lima_k = 0; lima_k < lima_n - lima_j; ++lima_k) {
+//             cout << " ";
+//         }
+//         for (int lima_k = 0; lima_k < (lima_j * 2 - 1); ++lima_k) {
+//             cout << lima_j;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// Desenhista
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_p;
+//     cin >> lima_p;
+//     for (int lima_i = 1; lima_i <= lima_p; ++lima_i) {
+//         for (int lima_j = 0; lima_j < lima_p - lima_i; ++lima_j) {
+//             cout << ">";
+//         }
+//         for (int lima_j = 0; lima_j < lima_i; ++lima_j) {
+//             cout << "#";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// Desafio Tático
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int lima_p, lima_s;
+//     cin >> lima_p >> lima_s;
+//     for (int lima_i = 0; lima_i < lima_p; ++lima_i) {
+//         int lima_ataque_total = 0, lima_defesa_total = 0;
+//         for (int lima_j = 0; lima_j < lima_s; ++lima_j) {
+//             int lima_ataque, lima_defesa;
+//             cin >> lima_ataque >> lima_defesa;
+//             lima_ataque_total += lima_ataque;
+//             lima_defesa_total += lima_defesa;
+//         }
+//         cout << lima_ataque_total << " " << lima_defesa_total << endl;
+//     }
+//     return 0;
+// }
+
+
+// Em Busca da Esmeralda
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     vector<int> lima_caixas(lima_n);
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_caixas[lima_i];
+//     }
+//     int lima_c;
+//     cin >> lima_c;
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         if (lima_caixas[lima_i] == lima_c) {
+//             cout << lima_c << endl;
+//             return 0;
+//         }
+//     }
+//     cout << -1 << endl;
+//     return 0;
+// }
+
+
+// Dr. Strange e as Multidimensões
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     vector<int> lima_u(lima_n), lima_v(lima_n), lima_d(lima_n);
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_u[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_v[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_d[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         if (lima_u[lima_i] + lima_v[lima_i] != lima_d[lima_i]) {
+//             cout << "NOPE :(" << endl;
+//             return 0;
+//         }
+//     }
+//     cout << "OK" << endl;
+//     return 0;
+// }
+
+
+// Ajude a Imperial
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     vector<int> lima_x(lima_n), lima_y(lima_n);
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_x[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_y[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         if (lima_x[lima_i] == 0) {
+//             cout << 0 << " ";
+//         } else {
+//             cout << (lima_y[lima_i] * 100 / lima_x[lima_i]) << " ";
+//         }
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// Pulando até o tesouro!
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_s;
+//     cin >> lima_n;
+//     vector<int> lima_a(lima_n);
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_a[lima_i];
+//     }
+//     cin >> lima_s;
+//     int lima_count = 0;
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         if (lima_a[lima_i] <= lima_s) {
+//             lima_count++;
+//         } else {
+//             break;
+//         }
+//     }
+//     cout << lima_count << endl;
+//     cout << (lima_count == lima_n ? 1 : 0) << endl;
+//     return 0;
+// }
+
+// AVATAR: HABILIDADES DOS DOBRADORES
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_y;
+//     cin >> lima_n;
+//     vector<int> lima_e(lima_n), lima_x(lima_n);
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_e[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cin >> lima_x[lima_i];
+//     }
+//     cin >> lima_y;
+//     bool lima_found = false;
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         if (lima_e[lima_i] == lima_y) {
+//             if (lima_found) {
+//                 cout << " ";
+//             }
+//             cout << lima_x[lima_i];
+//             lima_found = true;
+//         }
+//     }
+//     if (!lima_found) {
+//         cout << "Nenhum";
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// A grande travessia
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_s, lima_n;
+//     cin >> lima_s >> lima_n;
+//     vector<int> lima_pulos(lima_s);
+//     vector<int> lima_pedras(lima_n, 0);
+//     for (int lima_i = 0; lima_i < lima_s; ++lima_i) {
+//         cin >> lima_pulos[lima_i];
+//     }
+//     for (int lima_i = 0; lima_i < lima_s; ++lima_i) {
+//         int lima_pulo = lima_pulos[lima_i];
+//         for (int lima_pos = 0; lima_pos < lima_n; lima_pos += lima_pulo) {
+//             lima_pedras[lima_pos] = 1;
+//         }
+//     }
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         cout << lima_pedras[lima_i];
+//         if (lima_i < lima_n - 1) cout << " ";
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// Em Busca das Esferas do Dragão
+// #include <iostream>
+// #include <set>
+// #include <vector>
+// #include <algorithm>
+// using namespace std;
+// int main() {
+//     int lima_n;
+//     cin >> lima_n;
+//     set<int> lima_esferas;
+//     vector<int> lima_encontradas;
+//     for (int lima_i = 0; lima_i < lima_n; ++lima_i) {
+//         int lima_e;
+//         cin >> lima_e;
+//         if (lima_e >= 1 && lima_e <= 7) {
+//             lima_esferas.insert(lima_e);
+//         }
+//     }
+//     for (int lima_j = 1; lima_j <= 7; ++lima_j) {
+//         if (lima_esferas.count(lima_j)) {
+//             lima_encontradas.push_back(lima_j);
+//         }
+//     }
+//     for (int lima_k : lima_encontradas) {
+//         cout << lima_k << " ";
+//     }
+//     cout << endl;
+//     if (lima_encontradas.size() == 7) {
+//         cout << "Saia Shenlong e realize o meu desejo" << endl;
+//     } else {
+//         cout << "Nao encontramos todas" << endl;
+//     }
+//     return 0;
+// }
+
+
+// blasphemous
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main() {
+//     int lima_n, lima_m, lima_auxVida = 0;
+//     cin >> lima_n;
+//     vector<int> lima_x(lima_n);
+//     for (int i = 0; i < lima_n; i++) {
+//         cin >> lima_x[i];
+//     }
+//     cin >> lima_m;
+//     lima_auxVida = lima_m;
+//     for (int i = 0; i < lima_n; i++) {
+//         if (lima_auxVida <= 0) {
+//             break;
+//         } else {
+//             if (lima_x[i] == 1) {
+//                 lima_auxVida = lima_m;
+//             }
+//             if (lima_x[i] > 1) {
+//                 lima_auxVida -= lima_x[i];
+//             }
+//         }
+//     }
+//     if (lima_auxVida > 0) {
+//         cout << "Yes, you can" << endl;
+//     } else {
+//         cout << "You Died" << endl;
+//     }
+//     return 0;
+// }
+// xeroque holmes
+// #include <iostream>
+// #include <vector>
+
+// using namespace std;
+
+// int main() {
+//     int entrada = 6;
+//     vector<int> count;
+//     string lima_temp;
+
+//     for (int lima_loop = 0; lima_loop < entrada; lima_loop++) {
+//         cin >> lima_temp;
+//         count.push_back(lima_temp.length());
+//     }
+
+//     for (int length : count) {
+//         cout << length;
+//     }
+//     return 0;
+// }
+// inventario caotico
+// #include <iostream>
+// #include <string>
+
+// int main() {
+//     std::string frase, palavra;
+//     int quantidade;
+
+//     std::getline(std::cin, frase);
+//     std::cin >> quantidade >> palavra;
+
+//     std::string fraseSemEspaco = "";
+//     for (char c : frase) {
+//         if (c != ' ') {
+//             fraseSemEspaco += c;
+//         }
+//     }
+
+//     int contagem = 0;
+//     for (int i = 0; i <= fraseSemEspaco.length() - palavra.length(); i += palavra.length()) {
+//         if (fraseSemEspaco.substr(i, palavra.length()) == palavra) {
+//             contagem++;
+//         }
+//     }
+
+//     std::cout << contagem << std::endl;
+
+//     if (contagem == quantidade) {
+//         std::cout << "SIM!" << std::endl;
+//     } else {
+//         std::cout << "NAO!" << std::endl;
+//     }
+
+//     return 0;
+// }
+
